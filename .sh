@@ -1,0 +1,1 @@
+docker rm -f vite && docker system prune -f && docker rmi -f vite && docker build -t vite . && docker run -itd --name vite -p 7666:80 vite
