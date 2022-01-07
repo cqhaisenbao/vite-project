@@ -13,4 +13,5 @@ RUN npm run build
 
 # 还需要一个nginx镜像，用来部署vue项目
 FROM nginx
-COPY --from=builder /src/dist /usr/share/nginx/html/
+WORKDIR /usr/share/nginx/html/
+COPY --from=builder /src/dist .
