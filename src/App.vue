@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <h3>cicd 344</h3>
+  <h3>cicd 777</h3>
 </template>
 
 <style>
